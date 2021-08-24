@@ -148,6 +148,10 @@ a, a:hover {
 #menubar .menu--main {
   background-color: #525355;
 }
+#menubar .menu--main ul.menu {
+  display: flex;
+  justify-content: center;
+}
 #menubar .menu--main a {
   color: white;
   font-weight: normal;
