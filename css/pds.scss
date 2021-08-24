@@ -1,0 +1,273 @@
+$menu-link-color: white;
+$menu-bg-color: #525355;
+$hdr-bg-color: initial;
+$hdr-bg-image: initial;
+$menu-font-weight: normal;
+
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+a, a:hover{
+	color: rgb(117, 109, 0);
+}
+
+
+#branding {
+
+
+	>.section {
+		max-width: 1290px;
+		margin: 0 auto;
+	}
+
+	display: flex;
+	background-color: black;
+	
+	.region-branding {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: baseline;
+	text-align: center;
+	@media only screen and (max-width: 600px) {
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	}
+	p {
+		margin: 0;
+	}
+	.block .content {
+		margin-top: 0;
+	}
+	p > a {
+		background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
+		background-size: 300px 45px;
+		text-indent: -999em;
+		min-width: 300px;
+		text-align: left;
+		padding: 1em 0 1em 1em;
+		display: block;
+	}
+	
+		.search-block-form {
+			display: flex;
+			justify-content: center;
+			align-items: baseline;
+		}
+		
+		div[id^="edit-actions"] {
+			margin-right: 0.6em;
+			}
+		
+		.search-form .form-search {
+		float: none;
+		width: 200px;
+	}
+}
+
+#header {
+
+	background: rgb(251,248,83);
+	background: radial-gradient(circle, rgba(251,248,83,1) 0%, rgba(236,165,59,1) 100%);
+
+	.region-header {
+		padding: 1em 0 0 0;
+		display: flex;
+		justify-content: center;
+		.block {
+			margin: 0;
+			line-height:0;
+		}
+		.site-branding {
+		}	
+	}
+
+	@media only screen and (max-width: 851px) {
+	.region-header {
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+	.region-header .site-branding {
+		
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			text-align: center;
+			
+		}
+	}
+
+	.site-branding__text {
+		margin-bottom: 0;
+		padding: 0; 
+		a {
+			color: black;
+		}
+	}
+
+.orfe-logo {
+	max-width: 450px;
+}	
+
+	.site-branding__logo {
+		margin: 0;
+		padding:0;
+		line-height: 0;
+		max-width:400px;
+		@media only screen and (max-width: 600px) {
+		}
+		
+	}
+
+	.site-branding__name {
+		font-size: 2.25em;
+	}
+
+	
+}
+
+.region-primary-menu .menu {
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+	ul li {
+		display: inline;
+		vertical-align: middle;
+		margin: 0 0.25em 0 0.25em;
+	}
+	a {
+		color: rgb(3, 3, 3);
+		font-weight: bold;
+		font-size: 1.3em;
+	}
+	a.active {
+	}
+}
+
+#menubar {
+	.region-menubar {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		}
+	.block-menu {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+			ul {
+				text-align: center;
+			}
+			ul.menu {
+				padding: 0;
+			}
+			ul li {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0.5em;
+			}
+		}
+	.menu--main {
+		background-color: $menu-bg-color;
+		a {
+			color: $menu-link-color;
+			font-weight: $menu-font-weight;
+
+		}
+	}
+
+	.menu--main, .menu--administrative-menu {
+		.content {
+			margin: 0.5em 0 0.5em 0;
+		}
+	}
+}
+
+.region-primary-menu .menu-item, body:not(:target) .region-primary-menu .menu-item {
+	@media (min-width: 461px) and (max-width: 900px) {
+	float: none;
+	}
+}
+
+
+.reginfo{
+	margin: 0 0 1.2em;
+	text-align: center;
+}
+
+.layout-container{
+		max-width: 1024px;
+}
+
+.layout-main {
+margin-top: 0;
+}
+
+.subbrand {
+border-top: 20px solid #292929;
+}
+
+#subbrand {
+	.subbrand {
+		display: flex;
+	}
+	p {
+		margin: 1em;
+	}
+	p > a {
+		background: url("../images/small-orfe-logo.png") no-repeat 50% 50%;
+		background-size: 255px 70px;
+		text-indent: -999em;
+		min-width: 255px;
+		text-align: left;
+		padding: 1em;
+		display: block;
+		border-bottom: none;
+	}
+}
+
+h1 {
+	font-size: 1.3em;
+}
+
+#triptych h2 {
+font-size: 1.2em;
+}
+
+#block-wlhss-main-menu {
+	.menu {
+		display: flex;
+		justify-content: center;
+	}
+
+}
+
+.registration-btn {
+  background: #FBF853;
+  background-image: -webkit-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -moz-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -ms-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: -o-linear-gradient(top, #FBF853, #ECA53B);
+  background-image: linear-gradient(to bottom, #FBF853, #ECA53B);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 26px;
+  padding: 12px 18px 10px 18px;
+  text-decoration: none;
+}
+
+.registration-btn:hover {
+  text-decoration: none;
+}
+
+.main-content h2 {
+	margin-bottom: 1em;
+	font-size: 1.75em;
+}
