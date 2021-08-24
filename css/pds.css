@@ -58,8 +58,7 @@ a, a:hover {
 }
 
 #header {
-  background: #fbf853;
-  background: radial-gradient(circle, #fbf853 0%, #eca53b 100%);
+  background: white;
 }
 #header .region-header {
   padding: 1em 0 0 0;
@@ -100,7 +99,15 @@ a, a:hover {
   max-width: 400px;
 }
 #header .site-branding__name {
-  font-size: 2.25em;
+  font-size: 3em;
+}
+#header .site-branding__slogan {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5em;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  line-height: 1em;
 }
 
 .region-primary-menu .menu {
@@ -228,4 +235,4 @@ h1 {
   font-size: 1.75em;
 }
 
-/*# sourceMappingURL=wlhss.css.map */
+/*# sourceMappingURL=pds.css.map */
