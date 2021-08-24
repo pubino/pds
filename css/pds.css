@@ -148,7 +148,7 @@ a, a:hover {
 #menubar .menu--main {
   background-color: #525355;
 }
-#menubar .menu--main ul.menu {
+#menubar .menu--main ul {
   display: flex;
   justify-content: center;
 }
