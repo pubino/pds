@@ -148,7 +148,7 @@ a, a:hover {
 #menubar .menu--main {
   background-color: #525355;
 }
-#menubar .menu--main ul {
+#menubar .menu--main ul.menu {
   display: flex;
   justify-content: center;
 }
@@ -158,6 +158,11 @@ a, a:hover {
 }
 #menubar .menu--main .content, #menubar .menu--administrative-menu .content {
   margin: 0.5em 0 0.5em 0;
+}
+
+.region-primary-menu .menu--main ul.menu {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 461px) and (max-width: 900px) {

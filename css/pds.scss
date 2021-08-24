@@ -180,12 +180,10 @@ a, a:hover{
 			}
 		}
 	.menu--main {
-	
-		ul {
+		ul.menu {
 			display: flex;
 			justify-content: center;
 		}
-	
 		background-color: $menu-bg-color;
 		a {
 			color: $menu-link-color;
@@ -197,6 +195,15 @@ a, a:hover{
 	.menu--main, .menu--administrative-menu {
 		.content {
 			margin: 0.5em 0 0.5em 0;
+		}
+	}
+}
+
+.region-primary-menu {
+	.menu--main {
+		ul.menu {
+			display: flex;
+			justify-content: center;
 		}
 	}
 }
