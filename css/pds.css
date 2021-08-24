@@ -248,4 +248,17 @@ h1 {
   font-size: 1.75em;
 }
 
+.site-footer .block {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-color: none;
+}
+
+.site-footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=pds.css.map */
