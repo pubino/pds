@@ -63,11 +63,15 @@ a, a:hover {
 #header .region-header {
   padding: 1em 0 0 0;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  text-align: center;
 }
 #header .region-header .block {
   margin: 0;
   line-height: 0;
+}
+#header .region-header .site-branding {
+  display: block;
 }
 @media only screen and (max-width: 851px) {
   #header .region-header {
@@ -101,7 +105,7 @@ a, a:hover {
 #header .site-branding__name {
   font-size: 3em;
 }
-#header .site-branding__slogan {
+#header #block-dateandlocation, #header .site-branding__slogan {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.5em;
   font-style: normal;
