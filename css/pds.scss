@@ -114,6 +114,9 @@ ul.menu a.is-active {
 		a {
 			color: black;
 			border-bottom: 5px solid #E6863E;
+			@media only screen and (max-width: 851px) {
+				line-height: 1.2em;
+			}
 		}
 	}
 
@@ -143,6 +146,9 @@ ul.menu a.is-active {
 		text-align: center;
 		line-height: 2em;
 		padding-top: 5px;
+		@media only screen and (max-width: 851px) {
+		line-height: 1.4em;
+		}
 	}
 
 	

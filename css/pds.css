@@ -98,6 +98,11 @@ ul.menu a.is-active {
   color: black;
   border-bottom: 5px solid #E6863E;
 }
+@media only screen and (max-width: 851px) {
+  #header .site-branding__text a {
+    line-height: 1.2em;
+  }
+}
 #header .orfe-logo {
   max-width: 450px;
 }
@@ -118,6 +123,11 @@ ul.menu a.is-active {
   text-align: center;
   line-height: 2em;
   padding-top: 5px;
+}
+@media only screen and (max-width: 851px) {
+  #header #block-dateandlocation, #header .site-branding__slogan {
+    line-height: 1.4em;
+  }
 }
 
 .region-primary-menu .menu {
