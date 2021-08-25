@@ -65,6 +65,7 @@ ul.menu a.is-active {
   background: white;
 }
 #header .region-header {
+  max-height: 125px;
   padding: 1em 0 0 0;
   display: flex;
   flex-flow: column;
