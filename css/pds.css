@@ -4,11 +4,11 @@ body {
 }
 
 a, a:hover {
-  color: #e69600;
+  color: #E6863E;
 }
 
 ul.menu a.is-active {
-  color: orange;
+  color: #E6863E;
 }
 
 #branding {
@@ -96,6 +96,7 @@ ul.menu a.is-active {
 }
 #header .site-branding__text a {
   color: black;
+  border-bottom: 5px solid #E6863E;
 }
 #header .orfe-logo {
   max-width: 450px;
@@ -116,6 +117,7 @@ ul.menu a.is-active {
   color: black;
   text-align: center;
   line-height: 2em;
+  padding-top: 5px;
 }
 
 .region-primary-menu .menu {

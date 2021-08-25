@@ -10,11 +10,11 @@ body {
 }
 
 a, a:hover{
-	color: #e69600;
+	color: #E6863E;
 }
 
 ul.menu a.is-active {
-	color: orange;
+	color: #E6863E;
 }
 
 
@@ -110,9 +110,10 @@ ul.menu a.is-active {
 
 	.site-branding__text {
 		margin-bottom: 0;
-		padding: 0; 
+		padding: 0;
 		a {
 			color: black;
+			border-bottom: 5px solid #E6863E;
 		}
 	}
 
@@ -141,6 +142,7 @@ ul.menu a.is-active {
 		color: black;
 		text-align: center;
 		line-height: 2em;
+		padding-top: 5px;
 	}
 
 	
