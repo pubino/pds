@@ -7,6 +7,10 @@ a, a:hover {
   color: #e69600;
 }
 
+ul.menu a.is-active {
+  color: orange;
+}
+
 #branding {
   display: flex;
   background-color: black;
