@@ -230,6 +230,14 @@ ul.menu a.is-active {
 		max-width: 1024px;
 }
 
+table>caption{
+	font-size: 2em;
+}
+
+table{
+	table-layout: fixed;
+}
+
 .layout-main {
 margin-top: 0;
 }
