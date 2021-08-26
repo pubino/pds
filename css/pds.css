@@ -212,6 +212,7 @@ table > caption {
 
 table {
   table-layout: fixed;
+  font-size: 1em;
 }
 
 .layout-main {
