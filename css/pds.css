@@ -296,4 +296,14 @@ h1 {
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .block-views-blockspeakers-speakers-list {
+    float: left;
+    width: 50%;
+  }
+  .block-views-blockspeakers-speakers-list h2 {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=pds.css.map */
