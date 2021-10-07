@@ -305,5 +305,8 @@ h1 {
     margin-top: 0;
   }
 }
+.featured-bottom .region {
+  width: 100%;
+}
 
 /*# sourceMappingURL=pds.css.map */
