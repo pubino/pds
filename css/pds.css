@@ -309,4 +309,8 @@ h1 {
   width: 100%;
 }
 
+.featured-bottom .block {
+  padding-bottom: 0;
+}
+
 /*# sourceMappingURL=pds.css.map */
