@@ -3,6 +3,10 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.contextual-region {
+  position: initial;
+}
+
 a, a:hover {
   color: #E6863E;
 }
